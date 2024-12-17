@@ -26,8 +26,9 @@ header h1 {
     font-weight: bold;
 }
 
+/* Logo size adjustments */
 header .logo {
-    width: 100px; /* Adjust the logo size */
+    width: 150px; /* Adjust the width of the logo */
     height: auto;
     margin-bottom: 10px; /* Space between logo and title */
 }
