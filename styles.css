@@ -110,3 +110,36 @@ footer {
     overflow: hidden;
     border-radius: 8px;
 }
+
+/* Gallery Section */
+#gallery {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+}
+
+#gallery h2 {
+    color: #2c6b2f;
+    margin-bottom: 1rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 5px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}

@@ -5,6 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lobos Tree Services</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional Styles for the Photo Gallery */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .gallery img {
+                max-width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,6 +44,7 @@
             <ul>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -40,34 +70,31 @@
             <p>At Lobos Tree Services, we specialize in providing comprehensive tree care. Whether you need a tree removed, trimmed, or assessed for health, we offer expert solutions tailored to your needs.</p>
         </section>
 
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Our Work</h2>
+            <p>Take a look at some of our recent projects:</p>
+            <div class="gallery">
+                <img src="images/tree_removal.jpg" alt="Tree Removal Service">
+                <img src="PHOTO-2024-09-20-16-36-51.jpg" alt="Tree Trimming Service">
+                <img src="images/stump_grinding.jpg" alt="Stump Grinding Service">
+                <img src="images/emergency_service.jpg" alt="Emergency Tree Service">
+                <img src="images/tree_health.jpg" alt="Tree Health Assessment">
+            </div>
+        </section>
+
         <!-- Contact Section -->
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>Email: <a href="mailto: Lobostreeservicellc@Gmail.com"> Lobostreeservicellc@Gmail.com</a></p>
+            <p>Email: <a href="mailto:Lobostreeservicellc@gmail.com">Lobostreeservicellc@gmail.com</a></p>
             <p>Phone: (248) 214-5037</p>
             <p>Located in Oakland County, Michigan</p>
 
             <!-- Google Maps Embed -->
             <div style="margin-top: 20px;">
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187780.71285495703!2d-83.55121787622456!3d42.659794887912774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88248da428942fd9%3A0xc6f3a7bf3cd2d23b!2sOakland%20County%2C%20MI!5e0!3m2!1sen!2sus!4v1734409202977!5m2!1sen!2sus" 
-                    width="100%" 
-                    height="400" 
-                    style="border:0; box-shadow: 0 0 10px rgba(0,0,0,0.2);" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-        </section>
-    </main>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187780.71285495703!2d-83.55121787622456!3d42.659794887912774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88248da428942fd9%3A0xc6f3a7bf3cd2d23b!2sOakland%20County%2C%20MI!5e0!3m2!1sen!2sus!4
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Lobos Tree Services | Serving Oakland County, Michigan</p>
-    </footer>
-</body>
-</html>
 
 
 
