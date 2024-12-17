@@ -100,3 +100,13 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* Map Container Styling */
+.map-container {
+    margin: 20px 0;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 8px;
+}
